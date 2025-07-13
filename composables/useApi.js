@@ -1,5 +1,6 @@
 // API Base URL - you can change this to your Laravel backend URL later
-const API_BASE_URL = 'http://localhost:8000/api'
+// const API_BASE_URL = 'http://localhost:8000/api'
+const API_BASE_URL = 'https://admin.skylabeautee.com/api'
 
 // Generic API fetch function
 export const useApiCall = async (endpoint, options = {}) => {
